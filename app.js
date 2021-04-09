@@ -25,7 +25,14 @@ function playRound(playerSelection, computerSelection){
     }
 }
 
-const user = "rock";
-const pc = computerPlay();
+function game(){
+    let i = 0;
+    while(i <= 4){
+        i ++;
+        const user = prompt("Write your chose, rock, scissor or paper");
+        const pc = computerPlay();
+        console.log(playRound(user, pc));
+    }
+}
 
-console.log(playRound(user,pc));
+game();

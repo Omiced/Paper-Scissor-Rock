@@ -1,0 +1,28 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divScore{
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+  border-style: solid;
+  width: 25%;
+}
+
+.divScore > div{
+  align-content: center;
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+.divInputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
